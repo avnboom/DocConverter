@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DocConverter/.vs/DocConverter/v16
+/DocConverter/.vs/DocConverter/DesignTimeBuild
+/DocConverter/DocConerter.Tests/bin/Debug/netcoreapp3.0
+/DocConverter/DocConerter.Tests/obj
+/DocConverter/DocConverter.Domain/bin/Debug/netcoreapp3.0
+/DocConverter/DocConverter.Domain/obj
+/DocConverter/DocConverter.Infrastructure/bin/Debug/netcoreapp3.0
+
+obj
+bin
