@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WebApp.Configuration
+namespace WebAppReact.Configuration
 {
     /// <summary>
     /// IOC configuration

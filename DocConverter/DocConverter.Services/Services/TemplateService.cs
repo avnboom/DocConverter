@@ -1,4 +1,5 @@
 ﻿using DocConverter.Domain.Model.Contract;
+using DocConverter.Domain.Model.Filtering;
 using DocConverter.Domain.Model.Template;
 using DocConverter.Domain.ViewModel.Contract;
 using DocConverter.Infrastructure.EntityFramework.UnitOfWork.Contract;
@@ -11,6 +12,11 @@ namespace DocConverter.Services.Services
         protected IUnitOfWork UnitOfWork { get; set; }
 
         public ITableView Get(IPageInfo pageInfo)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public ITableView Get(IServiceFilter filter)
         {
             throw new System.NotImplementedException();
         }
