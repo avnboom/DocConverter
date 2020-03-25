@@ -18,7 +18,7 @@ namespace WebAppReact.Configuration
         /// <param name="configuration"></param>
         public static void ConfigureDb(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<DocConverterContext>(opts => opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
+            services.AddDbContext<DocConverterContext>(opts => opts.UseNpgsql(configuration.GetConnectionString("SqlConnection")));
         }
 
         /// <summary>

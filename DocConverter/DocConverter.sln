@@ -7,11 +7,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConverter.Domain", "DocC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConverter.Infrastructure", "DocConverter.Infrastructure\DocConverter.Infrastructure.csproj", "{44094028-0CB0-4EA2-8F10-FF60049D25CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConerter.Tests", "DocConerter.Tests\DocConerter.Tests.csproj", "{1DAB95BB-8430-4017-B9B8-F36855F92E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConverter.Infrastructure.Tests", "DocConverter.Infrastructure.Tests\DocConverter.Infrastructure.Tests.csproj", "{1DAB95BB-8430-4017-B9B8-F36855F92E32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocConverter.Services", "DocConverter.Services\DocConverter.Services.csproj", "{62543664-758D-4FEB-BF6E-F44A021E987E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppReact", "WebAppReact\WebAppReact.csproj", "{94BD0DE8-231E-4225-A750-0D8EBF703A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4989C77C-A336-4A04-AFE5-5396B9F40D06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateEditor", "TemplateEditor", "{6D045450-7F5D-4261-AFF7-47ADE71F7918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentManager", "DocumentManager", "{A300AFFF-1680-4FD0-8D97-0C561FE49162}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMappers", "TemplateMappers", "{2C680687-D244-42F1-94DE-8130625D0729}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentReaders", "DocumentReaders", "{4801E02A-CF97-45E9-9959-7A28377608EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentWriters", "DocumentWriters", "{2C1FDBC7-1C7F-41C0-B2A3-6AE524C1A615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,5 +57,11 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A966299-C6F8-45F6-BC0D-D94AFC30E071}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5D84B90-7F23-40A2-96DE-1326AF053021} = {4989C77C-A336-4A04-AFE5-5396B9F40D06}
+		{44094028-0CB0-4EA2-8F10-FF60049D25CA} = {4989C77C-A336-4A04-AFE5-5396B9F40D06}
+		{62543664-758D-4FEB-BF6E-F44A021E987E} = {4989C77C-A336-4A04-AFE5-5396B9F40D06}
+		{1DAB95BB-8430-4017-B9B8-F36855F92E32} = {4989C77C-A336-4A04-AFE5-5396B9F40D06}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace DocConerter.Tests
+namespace DocConverter.Tests
 {
     public class Tests
     {

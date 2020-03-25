@@ -7,21 +7,10 @@
     <e p="C:\Users\anaza\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" t="Include" />
     <e p="C:\Users\anaza\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" t="Include" />
     <e p="C:\Users\anaza\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\anaza\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\anaza\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\anaza\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DocConverter.-460712550.00" t="ExcludeRecursive" />
     <e p="G:\dotnet\dc\docconverter\docconverter" t="IncludeFlat">
-      <e p="DocConerter.Tests" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="DocConerter.Tests.csproj" t="IncludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
-              <e p="DocConerter.Tests.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="UnitTest1.cs" t="Include" />
-      </e>
       <e p="DocConverter.Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="DocConverter.Domain.csproj" t="IncludeRecursive" />
@@ -99,11 +88,6 @@
         <e p="Logger" t="Include">
           <e p="LoggingEvents.cs" t="Include" />
         </e>
-        <e p="Migrations" t="Include">
-          <e p="20191103055406_InitTemplateDb.cs" t="Include" />
-          <e p="20191103055406_InitTemplateDb.Designer.cs" t="Include" />
-          <e p="TemplateContextModelSnapshot.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -111,6 +95,18 @@
             </e>
           </e>
         </e>
+      </e>
+      <e p="DocConverter.Infrastructure.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DocConverter.Infrastructure.Tests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DocConverter.Infrastructure.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="DocConverter.Services" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -131,77 +127,13 @@
         </e>
       </e>
       <e p="DocConverter.sln" t="IncludeFlat" />
+      <e p="DocumentManager" t="Include" />
+      <e p="DocumentReaders" t="Include" />
+      <e p="DocumentWriters" t="Include" />
+      <e p="Infrastructure" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\animations" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\cli" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\common" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\compiler" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\compiler-cli" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\core" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\forms" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\platform-browser" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\platform-browser-dynamic" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\platform-server" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular\router" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\architect" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\build-angular" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\build-optimizer" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\core" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@ngtools\webpack" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@nguniversal\module-map-ngfactory-loader" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\@types" t="IncludeRecursive">
-        <e p="events" t="IncludeRecursive" />
-        <e p="jasmine" t="IncludeRecursive" />
-        <e p="jasminewd2" t="IncludeRecursive" />
-        <e p="minimatch" t="IncludeRecursive" />
-        <e p="node" t="IncludeRecursive" />
-        <e p="source-list-map" t="IncludeRecursive" />
-      </e>
-      <e p="WebApp\ClientApp\node_modules\ajv" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\aspnet-prerendering" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\blocking-proxy" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\bootstrap" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\canonical-path" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\chokidar" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\codelyzer" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\commander" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\core-js" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\dependency-graph" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\domino" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\es6-promise" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\fast-deep-equal" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\jasmine-core" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\jquery" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\karma" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\karma-chrome-launcher" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\karma-coverage-istanbul-reporter" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\karma-jasmine" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\karma-jasmine-html-reporter" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\license-webpack-plugin" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\magic-string" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\node-sass" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\oidc-client" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\popper.js" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\portfinder" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\postcss" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\protractor" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\reflect-metadata" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\rxjs" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\source-map" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\sourcemap-codec" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\symbol-observable" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\terser" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\tree-kill" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\ts-node" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\tslib" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\tslint" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\upath" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\uri-js" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\webdriver-js-extender" t="IncludeRecursive" />
-      <e p="WebApp\ClientApp\node_modules\zone.js" t="IncludeRecursive" />
+      <e p="TemplateEditor" t="Include" />
+      <e p="TemplateMappers" t="Include" />
       <e p="WebAppReact" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -289,7 +221,6 @@
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
           <e p="TemplateController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -309,7 +240,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
         <e p="WebAppReact.csproj" t="IncludeRecursive" />
       </e>
     </e>
